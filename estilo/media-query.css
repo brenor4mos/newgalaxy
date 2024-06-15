@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 969px) {
+    main{
+        flex-direction: row-reverse;
+    }
+    main > img {
+        width: 500px;
+    }
+}

@@ -1,0 +1,160 @@
+@charset "8-UTF";
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+header>menu>a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 10px;
+}
+
+header>a>img {
+    display: block;
+    height: 40px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px 50px;
+}
+
+main>img {
+    width: 250px;
+}
+
+main>div>h1 {
+    font-weight: 600;
+}
+main > div>h1>spam{
+    color: rgb(122, 204, 0);
+}
+
+main>div>p {
+    font-weight: light;
+    padding: 30px;
+}
+
+main>div>a {
+    background-color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner_logos {
+    background-image: url(../imagens/new_galaxy.webp);
+    width: 100%;
+    background-size: contain;
+    height: 30px;
+    margin: 20px 0px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.185);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185); */
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+.cursos {
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+section>p {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    padding: 20px;
+    background-color: rgba(27, 27, 27, 0.993);
+    border-radius: 35px;
+    margin: 10px 20px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.281);
+    color: white;
+}
+
+.box>h2 {
+    font-weight: 600;
+}
+
+.box>img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 10px 15px;
+}
+
+.box a {
+    margin: 10px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(119, 0, 255);
+    color: white;
+    border-radius: 20px;
+}
+.box a:hover{
+    background-color: rgb(167, 59, 255);
+    transition: .2s;
+}
+section>a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(55, 0, 80);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
