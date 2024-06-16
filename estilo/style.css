@@ -8,7 +8,14 @@
     font-family: 'Poppins', Arial, sans-serif;
 }
 
-header {
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header { 
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,7 +41,7 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
-    padding: 150px 50px;
+    padding: 100px 50px;
 }
 
 main>img {
@@ -76,12 +83,8 @@ section {
     padding-bottom: 20px;
 }
 
-.cursos {
-    background-image: url(../imagens/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+.cursos{
+    background-color: rgba(0, 0, 0, 0.644);
 }
 
 section>p {
@@ -101,16 +104,16 @@ section>p {
 .box {
     display: flex;
     padding: 20px;
-    background-color: rgba(27, 27, 27, 0.993);
-    border-radius: 35px;
+    background-color: rgba(5, 17, 70, 0.582);
+    border-radius: 25px;
     margin: 10px 20px;
     max-width: 400px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.281);
-    color: white;
+    box-shadow: 0px 0px 15px rgba(136, 136, 136, 0.411);
+    color: rgb(255, 255, 255);
 }
 
 .box>h2 {
